@@ -1,10 +1,10 @@
 import { defineThemeConfig } from './types'
 
 export default defineThemeConfig({
-  site: 'https://nordlys.fjelloverflow.dev',
+  site: 'https://david.gardiner.net.au/astro-blog-nordlys',
   title: 'Nordlys',
-  description: 'A minimal Astro blog theme',
-  author: 'FjellOverflow',
+  description: "Dave's Daydreams",
+  author: 'David Gardiner',
   navbarItems: [
     { label: 'Blog', href: '/posts' },
     { label: 'Projects', href: '/projects' },

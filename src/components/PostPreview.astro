@@ -30,9 +30,9 @@ const { id, data } = Astro.props.post
       </a>
       <time
         class="mt-4 text-sm opacity-75 sm:mt-0"
-        datetime={data.publishedDate.toISOString()}
+        datetime={data.date.toISOString()}
       >
-        {toDateString(data.publishedDate)}
+        {toDateString(data.date)}
       </time>
     </div>
     <TagsBar tags={resolveTags(data.tags)} />

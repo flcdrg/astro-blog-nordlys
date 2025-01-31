@@ -1,7 +1,7 @@
 ---
 title: Writing content
 description: Adding new pages, blog posts & projects to Nordlys
-publishedDate: 2024-10-06
+date: 2024-10-06
 tags:
   - documentation
 ---
@@ -33,7 +33,7 @@ type PageFrontmatter = {
   description?: string // meta
   canonicalURL?: string // meta
   openGraphImage?: string | ImageMetadata // relative URL to image in public folder or local asset
-  publishedDate?: Date // meta
+  date?: Date // meta
   scrollProgress?: boolean // bar indicating scroll location on top of page
   activeHeaderLink?: string // title or href of the active header link
   scrollToTop?: boolean // "Back to top" button when having scrolled far down
@@ -48,7 +48,7 @@ Writing a blog post is essentially the same as adding a new page, with slightly 
 ---
 title: I learned something
 description: A quick update on the new things I learned
-publishedDate: 2024-10-06
+date: 2024-10-06
 tags:
   - programming
   - TIL
@@ -64,7 +64,7 @@ type PostFrontmatter = {
   title: string
   author?: string // defaults author set in theme config
   description: string
-  publishedDate: Date
+  date: Date
   draft?: boolean // defaults to false
   canonicalURL?: string // meta
   openGraphImage?: string | ImageMetadata // either URL to image in public folder or local asset

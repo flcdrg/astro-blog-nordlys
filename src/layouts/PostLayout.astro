@@ -43,8 +43,8 @@ const frontmatter: PageLayoutProps['frontmatter'] = {
 
   <div class="mt-4">
     <span class="opacity-75"
-      >Published on <time datetime={post.data.publishedDate.toISOString()}
-        >{toDateString(post.data.publishedDate)}</time
+      >Published on <time datetime={post.data.date.toISOString()}
+        >{toDateString(post.data.date)}</time
       > by</span
     >
     <a class="clickable" href={`/authors/${post.data.author}`}

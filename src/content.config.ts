@@ -8,8 +8,8 @@ const posts = defineCollection({
     z.object({
       title: z.string(),
       author: z.string().default(config.author),
-      description: z.string(),
-      publishedDate: z.date(),
+      description: z.string().optional(),
+      date: z.coerce.date(),
       draft: z.boolean().optional().default(false),
       canonicalURL: z.string().optional(),
       openGraphImage: image().optional(),

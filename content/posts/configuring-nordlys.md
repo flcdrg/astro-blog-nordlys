@@ -1,7 +1,7 @@
 ---
 title: Configuring Nordlys
 description: How to configure the theme with the theme.config.ts
-publishedDate: 2024-10-07
+date: 2024-10-07
 tags:
   - documentation
 ---

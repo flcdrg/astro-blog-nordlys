@@ -3,7 +3,7 @@ import { getCollection, type CollectionEntry } from 'astro:content'
 export const sortPosts = (
   p1: CollectionEntry<'posts'>,
   p2: CollectionEntry<'posts'>
-) => p2.data.publishedDate.getTime() - p1.data.publishedDate.getTime()
+) => p2.data.date.getTime() - p1.data.date.getTime()
 
 export const getPosts = async (
   tag?: string,
